@@ -1,0 +1,13 @@
+dev/
+backups/
+
+src/public/upload_fletnix.html
+src/public/upload.html
+src/public/index_example.php
+src/public/assets/sql/Muziekdatabase_CreateScript.sql
+src/public/assets/sql/Muziekdatabase_InsertScript.sql
+src/public/assets/sql/camo_dps_restore/Han_Fletnix.sqlbak
+
+.DS_Store
+.gitattributes
+
