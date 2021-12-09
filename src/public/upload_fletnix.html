@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/assets/php/upload_fletnix.php" method="post" enctype="multipart/form-data">
+    Select Movie to upload:
+    <br>
+    <br>
+    <br>
+    <p>Selecteer film titel</p>
+    <input type="text" name="titel" id="titel">
+    <br>
+    <p>Selecteer film omschrijving</p>
+    <input type="text" name="description" id="description">
+    <br>
+    <p>author</p>
+    <input type="text" name="author" id="author">
+    <br>
+    <p>Cast</p>
+    <input type="text" name="cast" id="cast">
+    <br>
+    <p>Speelduur</p>
+    <input type="text" name="speelduur" id="speelduur">
+    <br>
+    <p>Publicatie datum</p>
+    <input type="text" name="Publicatiedatum" id="Publicatiedatum">
+    <br>
+    <p>Selecteer een afbeelding</p>
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <br>
+    <p>selecteer je genre</p>
+    <select id="genre" name="gerne">
+        <option value="horror">Horror</option>
+        <option value="actie">Actie</option>
+        <option value="familie">Familie</option>
+        <option value="thriller">Thriller</option>
+    </select>
+    <br>
+    <input type="submit" value="Upload Je film" name="submit">
+</form>
+
+</body>
+</html>

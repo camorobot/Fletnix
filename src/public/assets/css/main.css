@@ -1,0 +1,168 @@
+/*
+WIT = F3F8F2
+ZWART = 121619
+NETFLIX-ZWART = #141414
+GOUD = DB9D47
+GRIJS = 7E8287
+*/
+@font-face{
+    font-family: font-1;
+    src: url("../fonts/GothamRoundedLight_21020.ttf")
+}
+
+@font-face{
+    font-family: font-1-bold;
+    src: url("../fonts/GothamRounded-Bold.otf")
+}
+
+h1{
+    font-size: 20px;
+}
+
+a{
+    color: #DB9D47;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #F3F8F2
+}
+
+body{
+    margin: 20px 30px;
+    font-family: font-1;
+    color: #F3F8F2;
+    background-color: #141414;
+    line-height: 1.6;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li{
+    float: left;
+    margin: -10px 10px 0px 10px;
+}
+
+nav li a{
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 20px;
+}
+
+nav ul img{
+    margin-right: 10px;
+    float: left;
+    width: 100px;
+}
+
+nav li a:hover{
+    color: rgba(255, 255, 255, 1);
+}
+
+button{
+    margin-right: 25px;
+    font-size: 20px;
+    background-color: #F3F8F2;
+    color: #121619;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #F3F8F2;
+    opacity: 0.7;
+}
+
+button i{
+    margin-right: 10px;
+}
+
+.navbarRight form{
+    display: block;
+}
+
+.search-bar{
+    margin: 20px 0px 0px 0px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 0px;
+    background-color: #7E8287;
+}
+
+.button-alt{
+    opacity: 0.7;
+}
+
+.button-alt:hover{
+    opacity: 1;
+}
+
+ul .nav-active{
+    color: white;
+}
+
+.navbarRight{
+    float: right;
+    margin: -30px 0px 0px 0px;
+}
+
+.navbarRight i{
+    margin: 0px 0px 0px 10px;
+    font-size: 18px;
+}
+
+
+footer{
+    margin: 30px 0px;
+    text-align: center;
+}
+
+footer li{
+    margin: 5px 0px;
+}
+footer ul{
+    margin: 0px 50px;
+    text-align: left;
+    display: inline-block;
+    list-style-type: none;
+}
+
+footer a, footer p{
+    text-decoration: none;
+    color: #7E8287;
+    font-size: 13px;
+}
+
+footer a:hover{
+    color: #F3F8F2;
+}
+
+footer i{
+    font-size: 20px;
+}
+
+.socialmedia{
+    margin: 0px 770px 0px 0px;
+    font-size: 16px;
+}
+
+.socialmedia li {
+    margin: 0px 10px 0px 0px;
+    display: inline-block;
+}
+
+.copyright{
+    margin: 25px 0px 0px 0px;
+    text-align: center;
+}

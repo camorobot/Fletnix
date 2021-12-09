@@ -1,0 +1,40 @@
+version: "3.8"
+services:
+  database_server:
+    container_name: Database
+    image: mariadb:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: "Welkom01!"
+    ports:
+      - 3306:3306
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: App
+    restart: always
+    working_dir: /var/www/
+    volumes:
+      - ./src:/var/www
+  nginx:
+    image: nginx:latest
+    container_name: Nginx_webserver
+    restart: always
+    ports:
+      - 80:80
+    volumes:
+      - ./src:/var/www
+      - ./nginx:/etc/nginx/conf.d
+  phpmyadmin:
+    container_name: Phpmyadmin
+    image: phpmyadmin/phpmyadmin:latest
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      MYSQL_USERNAME: 'root'
+      MYSQL_ROOT_PASSWORD: 'Welkom01!'
+      PMA_ARBITRARY: 1
+      PMA_HOST: Database
+  

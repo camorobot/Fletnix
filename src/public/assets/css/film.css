@@ -1,0 +1,33 @@
+.header-preview{
+    margin: -75px -30px;
+    position: absolute;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, .85) ), url("/Assets/Img/HEADER_PREVIEW.jpg");
+    background-color: rgba(0,0,0, 0.4);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.film-info{
+    margin: 100px 0px 0px 0px;
+}
+
+.border-info{
+    background-color: #141414;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    width: 250px;
+    margin: 50px 0px;
+}
+
+.samenvatting-info{
+    width: 700px;
+}
+
+footer{
+    margin-top: 250px;
+}
